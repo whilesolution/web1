@@ -23,14 +23,18 @@ Suivez la structure du projet et la tâche qui vous est attribuée.
 
 Quand vous finissez de coder, n’oubliez pas de taper ces commandes dans votre terminal Git Bash :
 
-
-- git add .
-- git commit -m "précisez ce que vous avez codé"
-- git push origin dev
-- git pull
-
+======================================================
+|| - git add .                                      ||
+|| - git commit -m "précisez ce que vous avez codé" ||   
+|| - git push origin dev                            ||
+|| - git pull                                       ||
+======================================================
 
 Sur la page qui vous sera affichée, vous allez remplir les informations qui vous seront demandées.
+ces informations sont dans le groupe
+ - nom d'utilisateur
+ - mot de passe 
+    
 
 Après avoir envoyé votre code, vous allez taper la commande suivante dans votre terminal Git Bash :
 
