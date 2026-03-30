@@ -6,6 +6,6 @@ function loadComponents(id, url){
             }).catch(error => console.log(error));
 }
 document.addEventListener('DOMContentLoaded', function(){
-    loadComponents('header', '/includes/header.html');
-    loadComponents('footer', 'includes/footer.html');
+    loadComponents('header', 'includes/header.html');
+    loadComponents('footer', '/includes/footer.html');
 });
