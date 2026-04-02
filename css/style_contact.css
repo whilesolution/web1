@@ -1,7 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+    background: linear-gradient( rgba(112, 124, 230, 0.518), rgba(17, 32, 193, 0.669));
+    color: white;
+    background-attachment: fixed;
+  
   }
   
   /* Animation pour  mobile navbar dropdown */
@@ -32,4 +34,53 @@ body {
   .space {
     height: 5vh;
   }
-  
+  .container{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    
+
+  }
+  .row{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+  }
+  img{
+    width: 100%;
+    height: 65vh;
+    position: relative;
+    margin-right: 210px;
+    display: flex;
+} 
+.texte{
+    text-align: center;
+}
+h1{
+    color: green;
+    
+}
+form{
+  display: block ;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+
+}
+.form-control{
+  padding: auto;
+  margin: 0%;
+}
+.col-4{
+  align-items: center;
+  margin-left: 410px;
+}
+button{
+  margin-bottom: 20px;
+}
