@@ -32,3 +32,63 @@ body {
   .space {
     height: 5vh;
   }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #333;
+}
+
+.owner-section {
+    margin-bottom: 50px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-card {
+    width: 250px;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.owner {
+    background: #e8f4f8;
+    border: 2px solid #007bff;
+    margin: 0 auto;
+}
+
+.team-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.team-card p {
+    color: gray;
+    margin: 0;
+}
