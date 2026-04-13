@@ -11,5 +11,5 @@ function loadComponents(id, url){
 }
 document.addEventListener('DOMContentLoaded', function(){
     loadComponents('header', 'includes/header.html');
-    loadComponents('footer', '/includes/footer.html');
+    loadComponents('footer', 'includes/footer.html');
 });

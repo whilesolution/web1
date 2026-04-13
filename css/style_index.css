@@ -32,6 +32,18 @@ body {
 .space {
   height: 5vh;
 }
+
+
+footer {
+  color: #fff !important;
+  padding: 20px;
+  text-align: center;
+}
+footer .row .col-4 p, footer .row .col-4 a, footer .row .col-4 a:hover {
+  color: #c5c9d3 !important;
+}
+
+
 /* Style pour la page d'accueil */
 
 .hero{
