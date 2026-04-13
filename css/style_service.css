@@ -32,3 +32,155 @@ body {
   .space {
     height: 5vh;
   }
+
+.hero{
+  position: relative;
+  min-height: 40vh;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+
+.image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-section{
+position: relative;
+background-color: red;
+}
+.display-2{
+  position: relative;
+  padding-top: 5%;
+  margin-top: 5%;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.col-md-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 15px;
+  margin: auto;
+  padding: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  justify-content: center;
+}
+.col-md-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 15px;
+  margin: auto;
+  
+}
+
+@media (max-width: 767.98px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row {
+    justify-content: flex-start;
+  }
+  .container {
+    align-items: stretch;
+    padding: 0 15px;
+  }
+
+  .space {
+    height: 7vh;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  padding: 20px;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icon-choice{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  padding-top: 20px;
+  color: #007bff;
+
+}
+
+.choice{
+  height: 50vh;
+}
