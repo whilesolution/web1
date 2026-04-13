@@ -32,3 +32,94 @@ body {
   .space {
     height: 5vh;
   }
+
+
+
+        .about-header {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .about-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+
+    /* Effet sombre sur l'image */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        color: white;
+        text-align: center;
+    }
+
+    .overlay h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .overlay p {
+        font-size: 16px;
+    }
+    
+       
+
+        .section {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #0a3d62;
+}
+
+h3 {
+    color: #38ada9;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
