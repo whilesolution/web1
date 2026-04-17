@@ -46,6 +46,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #cbcfda ;
 }
 
 h1 {
@@ -71,8 +72,8 @@ h2 {
 
 .team-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
