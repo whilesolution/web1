@@ -47,25 +47,25 @@ body {
 
 
 
-        .about-header {
+.about-header {
         position: relative;
         width: 100%;
         height: 300px;
         overflow: hidden;
     }
 
-    .about-image {
+.about-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-     .container {
+.container {
             width: 100%;
             max-width: 1000px;
             margin: 30px auto;
         }
 
-        .card {
+.card {
             background: white;
             padding: 25px;
             margin-bottom: 20px;
@@ -88,7 +88,7 @@ body {
 
 
     /* Effet sombre sur l'image */
-    .overlay {
+.overlay {
         position: absolute;
         top: 0;
         left: 0;
@@ -104,19 +104,16 @@ body {
         color: white;
         text-align: center;
     }
-
-    .overlay h1 {
+.overlay h1 {
         font-size: 32px;
         margin-bottom: 10px;
     }
 
-    .overlay p {
+.overlay p {
         font-size: 16px;
     }
     
-       
-
-        .section {
+.section {
     max-width: 900px;
     margin: auto;
     padding: 30px;
@@ -135,3 +132,4 @@ h3 {
 p {
     line-height: 1.6;
 }
+

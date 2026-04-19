@@ -1,7 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #1e3441;
     color: #333;
+
   }
 
   footer {
@@ -54,19 +55,12 @@ body {
   color: white;
 }
 .btn {
-   padding-top: 1%;
+   padding-top: 0%;
    background-color: aqua;
    font-family: 'Times New Roman', Times, serif;
    
 }
 
-.btn a:hover {
-    color: red;
-}
-
-.btn a:active {
-    color: #333;
-}
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -76,18 +70,24 @@ main {
 h1 {
     text-align: center;
     margin-bottom: 40px;
+    color: #e8f4f8;
 }
 
 h2 {
     text-align: center;
     margin: 30px 0 20px;
-    color: #333;
+    color: #e8f4f8;
 }
 
 .owner-section {
     margin-bottom: 50px;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    
 }
 
 .team-container {
@@ -102,9 +102,13 @@ h2 {
     text-align: center;
     background: #f9f9f9;
     padding: 20px;
-    border-radius: 10px;
-
+    border-radius: 50px;
+    text-align: center;
+    background: #f2f2f2;
+    padding: 15px;
+    width: 200px;
 }
+
 
 .owner {
     background: #e8f4f8;
@@ -118,15 +122,68 @@ h2 {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
 }
 
 .team-card h3 {
     margin: 10px 0;
     font-size: 18px;
+    color: black;
 }
 
 .team-card p {
-    color: gray;
+    color:  black;
     margin: 0;
 }
+
+.acteurs h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  color: #e8f4f8;
+
+}
+
+.groupe {
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    
+    
+}
+
+.acteur {
+    width: 400px;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 100px;
+    text-align: center;
+    background: #f2f2f2;
+    padding: 25px;
+    width: 250px;
+ 
+}
+
+.acteur img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    
+  
+}
+
