@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prime Laundry</title>
     <link rel="stylesheet" href="css/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/font/bootstrap-icons.css">">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
@@ -29,6 +29,31 @@
 
     <main class="container my-5">
         <div class="row">
+
+            <!-- START WHY CHOOSE US -->
+            <section class="why_choose_area section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+                            <div class="single_why_choose">
+                                <h2>A propos </h2>
+                                <p>Prime Laundry est une entreprise spécialisée dans les services de lavage, repassage et entretien des vêtements, créée en mars 2026 et ca s'est trouve dans la ville de Lubumbashi dans l'avenue Kilelabalanda référence batiment ya baba.
+
+                                    Notre mission est d’offrir à nos clients un service rapide, fiable et de haute qualité, tout en garantissant le soin de chaque textile.
+                                    
+                                    Nous utilisons des techniques modernes et des produits adaptés pour préserver la qualité et la durabilité des vêtements.</p>
+                                <a class="btn_one" href="about.html">Voir plus</a>
+                            </div>							
+                        </div><!--- END COL -->	
+                        <div class="col-lg-6 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+                            <div class="single_why_choose_img">
+                                <img src="images/about/lavage.jpeg" class="img-fluid " alt="about-image" />
+                                   <img src="images/services/PUB(1).jpg" class="img-fluid image2" alt="about-image" />
+                            </div>							
+                        </div><!--- END COL -->	
+                    </div><!--- END ROW -->			
+                </div><!--- END CONTAINER -->		
+            </section>
 
             <div class="col-md-12">
                 <h2 class="text-center mb-4 fw-bold">Nos Services</h2>
@@ -73,7 +98,7 @@
                <div class="row">
                 <div class="col-md-4 choice">
                     <div class="card mb-4">
-                        <span class="card-top"><i class="bi bi-check-circle-fill icon-choice"></i></span>
+                        <span class="card-top"><i class="bi bi-snow2 icon-choice"></i></span>
                         <div class="card-body"> 
                             <p class="card-text fw-semibold">Des services de blanchisserie rapides et fiables</p>                       
                         </div> 
@@ -82,7 +107,7 @@
 
                 <div class="col-md-4 choice">
                     <div class="card mb-4">
-                        <span class="card-top"><i class="bi bi-check-circle-fill icon-choice"></i></span>
+                        <span class="card-top"><i class="bi bi-cash-stack icon-choice"></i></span>
                         <div class="card-body"> 
                             <p class="card-text fw-semibold">Des prix abordables pour tous les budgets</p>                       
                         </div> 
@@ -91,7 +116,7 @@
 
                 <div class="col-md-4 choice">
                     <div class="card mb-4">
-                        <span class="card-top"><i class="bi bi-feather icon-choice"></i></span>
+                        <span class="card-top"><i class="bi bi-cart4 icon-choice"></i></span>
                         <div class="card-body"> 
                             <p class="card-text fw-semibold">Un service client exceptionnel pour répondre à tous vos besoins</p>                       
                         </div> 
@@ -100,10 +125,46 @@
 
                </div>
             
+       
+               <div id="contact" class="contact_area section-padding">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <h2 class="section-title-white fw-bold">Contacter Nous</h2>
+                        <p class="section-title-white">Donnez-nous votre avis sur nos services</p>
+                    </div>				
+                    <div class="row">					
+                        <div class="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+                            <div class="contact">
+                                <form id="contact-form" method="post" enctype="multipart/form-data">
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <input type="text" name="name" class="form-control" placeholder="Nom complet" required="required">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <input type="text" name="subject" class="form-control" placeholder="Sujet" required="required">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <textarea rows="6" name="message" class="form-control" placeholder="Ecrivez votre message ici..." required="required"></textarea>
+                                        </div>
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" value="Envoyer" name="submit" id="submitButton" class="btn btn-dark" title="Envoyer votre message Message!">Envoyer</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div><!-- END COL  -->					
+                    </div><!-- END ROW -->				
+                </div><!--- END CONTAINER -->
+            </div>
+
+
         </div>
     </main>
 
-    <footer id="footer"></footer>
+    <footer class="bg-dark text-white" id="footer"></footer>
     
     <script src="js/includes.js"></script>
     <script src="js/main.js"></script>

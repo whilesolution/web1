@@ -12,38 +12,79 @@
 </head>
 <body>
     <header id="header"></header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12"> 
-            <img class="image_contact" src="images/contact/PUB(8).jpg">
-                <div class="texte">
-                    <b><h1>CONTACTEZ-NOUS</h1><br></b>
-                    <div> Avenue KILELA BALANDA <br> Commune de Lubumbashi <br> N°5</div><br>
-                    <div>+243 900 199 994</div><br>
-                    <div>primelaundry@gmail.com</div><br>
-                </div>
-                <div class="col-4"></div>
-                <div class="col-4">
-                    <form action="" method="post">
-                        <label for="Nom" class="fw-bold">Nom</label><br>
-                        <input type="text" class="form-control"><br>
-                        <label for="Prenom" class="fw-bold">Prenom</label><br>
-                        <input type="text" class="form-control"><br>
-                        <label for="E-mail" class="fw-bold">E-mail</label><br>
-                        <input type="text" class="form-control"><br>
-                        <label class="fw-bold">Laissez votre commentaires</label><br>
-                        <textarea name="comment" class="form-control"></textarea> <br>
-                    
-                        <button type="submit" name="yes" class="btn btn-success">Envoyez</button>
-                    </form>
-                    
-            
-                </div>
-                
-            </div>
-        </div>
+    <div class="hero align-items-center justify-content-center text-center text-white content">
+        <img  class="image" src="images/services/photo service background.jpg" type="img">
+
+        <div class="overlay"></div>
+
+        <section class="welcom-section text-center">
+            <h2 class="display-2 fw-bold">Contactez-nous </h2>
+            <p>Offrez-vous les meilleurs services de nettoyages des vos vetements . Avec PRIME LAUNDRY, vivez les meilleures experiences de Nettoyage et habillez-vous au rythme de l'élégance . </p>
+
+        </section>
     </div>
-    <footer id="footer"></footer>
+
+  
+
+                <!-- START ADDRESS -->
+                <section class="address_area section-padding">
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-xs-12 text-center">
+                            <div class="single_address">
+                                <h4>Lubumbashi(DRC)</h4>
+                                <p class="mr_20">600, Avenue Kilelabalanda <br/>Batiment Ya Baba <br />Lubumbashi, RD Congo</p>
+                                <p><a href="tel:243 900 199 994">+243 900 199 994</a></p>
+                                <p><a href="mailto:">info@laudryprime.com</a></p>
+                            </div>
+                          </div><!--- END COL -->				  
+                        </div><!--- END ROW -->
+                    </div><!--- END CONTAINER -->
+                </section>
+                <!-- END ADDRESS -->
+
+                <hr>
+                <!-- CONTACT -->
+                <div id="contact" class="contact_area section-padding">
+                    <div class="container">
+                        <div class="section-title text-center">
+                            <h2 class="section-title-white fw-bold">Contacter Nous</h2>
+                            <p class="section-title-white">Donnez-nous votre avis sur nos services</p>
+                        </div>				
+                        <div class="row">					
+                            <div class="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+                                <div class="contact">
+                                    <form id="contact-form" method="post" enctype="multipart/form-data">
+                                        <div class="row">
+                                            <div class="form-group col-md-6">
+                                                <input type="text" name="name" class="form-control" placeholder="Nom complet" required="required">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <input type="text" name="subject" class="form-control" placeholder="Sujet" required="required">
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <textarea rows="6" name="message" class="form-control" placeholder="Ecrivez votre message ici..." required="required"></textarea>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <button type="submit" value="Envoyer" name="submit" id="submitButton" class="btn btn-dark" title="Envoyer votre message Message!">Envoyer</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div><!-- END COL  -->					
+                        </div><!-- END ROW -->				
+                    </div><!--- END CONTAINER -->
+                </div>
+                <!-- END CONTACT -->		
+        
+
+
+
+       
+    <footer class="bg-dark text-white" id="footer"></footer>
     
     <script src="js/includes.js"></script>
     <script src="js/main.js"></script>
