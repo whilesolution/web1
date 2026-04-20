@@ -52,7 +52,6 @@ body {
 
 
 .about-header {
-<<<<<<< HEAD
     position: relative;
     width: 100%;
     height: 450px;
@@ -82,33 +81,6 @@ body {
 .card:hover {
     transform: translateY(-5px);
 }
-=======
-        position: relative;
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-    }
-
-.about-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-.container {
-            width: 100%;
-            max-width: 1000px;
-            margin: 30px auto;
-        }
-
-.card {
-            background: white;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
-        }
->>>>>>> 8f8b7d8a55fa96721052c8a3692c79ca229d8bd1
 
 h2 {
     color: #007BFF;
@@ -121,21 +93,12 @@ ul {
 
     /* Effet sombre sur l'image */
 .overlay {
-<<<<<<< HEAD
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-=======
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
->>>>>>> 8f8b7d8a55fa96721052c8a3692c79ca229d8bd1
         
     display: flex;
     flex-direction: column;
@@ -145,7 +108,6 @@ ul {
     color: white;
     text-align: center;
     }
-<<<<<<< HEAD
 
 .overlay h1 {
     font-size: 32px;
@@ -158,17 +120,6 @@ ul {
     
        
 
-=======
-.overlay h1 {
-        font-size: 32px;
-        margin-bottom: 10px;
-    }
-
-.overlay p {
-        font-size: 16px;
-    }
-    
->>>>>>> 8f8b7d8a55fa96721052c8a3692c79ca229d8bd1
 .section {
     max-width: 900px;
     margin: auto;
