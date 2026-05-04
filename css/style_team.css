@@ -55,11 +55,12 @@ body {
   color: white;
 }
 .btn {
-   padding-top: 0%;
-   background-color: aqua;
-   font-family: 'Times New Roman', Times, serif;
-   
-}
+	  color: #1b2032;
+	  background: #0487df;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+
 
 main {
     max-width: 1200px;
