@@ -32,6 +32,18 @@ body {
 .space {
   height: 5vh;
 }
+
+
+footer {
+  color: #fff !important;
+  padding: 20px;
+  text-align: center;
+}
+footer .row .col-4 p, footer .row .col-4 a, footer .row .col-4 a:hover {
+  color: #c5c9d3 !important;
+}
+
+
 /* Style pour la page d'accueil */
 
 .hero{
@@ -186,13 +198,129 @@ background-color: red;
   height: 50vh;
 }
 
-/* Style pour la page services */
+
+.why_choose_area {
+	margin-top: auto;
+}
+.single_why_choose{margin-top:60px;}
+.single_why_choose h2 {
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 76px;
+	margin-bottom: 30px;
+}
+.single_why_choose p{margin: 30px;}
+.single_why_choose_img img{
+  width: 100%;
+  height: auto;
+  margin: 30px;
+  object-fit: cover;
+}
+.single_why_choose a{
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  text-align: left;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.single_why_choose a:hover{
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
 
 
-/* Style pour la page contact */
+
+.image2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vmax;
+  height: 10vmax;
+  z-index: -2;
+  position: relative;
+  transform: translate(-10%, -80%);
+}
 
 
-/* Style pour la page à propos */
+form{
+  margin: 20px;
+}
+.single_address h4 {
+	font-weight: 600;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.mr_20{margin-bottom:10px;}
+.single_address p{}
+.single_address p a{color:#1b2032;transition:0.3s;}
+.single_address p a:hover{color:#4771fa;}
+.contact input {
+	background: #fff;
+	box-shadow: none;
+	color: #1b2032;
+	font-size: 18px;
+	font-weight:400;
+  border-radius: 2px;
+	height: auto;
+	padding: 8px;
+	width: 100%;
+	margin-bottom: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.contact textarea {
+	background: #fff;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #1b2032;
+	font-size:18px;
+	margin-bottom: 15px;
+	font-weight:400;
+	padding: 20px;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+.contact input:focus {
+	border: 1px solid #0487df;
+    box-shadow: none;
+	color: #1b2032;
+	background: #fff;
+    outline: 1px solid #0487df;
+}
+.contact textarea:focus {
+	border: 1px solid #fff;
+    box-shadow: #f6f6f6;
+    outline: 0 none;
+	color: #1b2032;
+	background: #fff;
+}
+.contact button {
+	font-size: 16px;
+}
+.contact_btn {
+	background: #ffaa17;
+	display: inline-block;
+	color: #fff;
+	border: 2px solid #ffaa17;
+	padding: 12px 40px;
+	
+}
+.contact_btn:hover{
+	background: #232a34;
+	border: 2px solid #232a34;
+}
 
-
-/* Style pour la page equipe */
