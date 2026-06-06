@@ -5,7 +5,8 @@ function loadComponents(id, url){
                 const element = document.getElementById(id);
                 if (element) {
                     element.innerHTML = data;
-                } else {                    console.warn(`Element with id "${id}" not found.`);
+                } else {
+                    console.warn(`Element  "${id}" non trouvé`);
                 }
             }).catch(error => console.log(error));
 }
