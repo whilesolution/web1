@@ -4,7 +4,6 @@ body {
   color: #333;
 }
 
-/* Animation pour  mobile navbar dropdown */
 .navbar-collapse {
   display: block !important;
   overflow: hidden;
