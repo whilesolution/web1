@@ -11,10 +11,12 @@ body {
   opacity: 0;
   transition: max-height 0.35s ease, opacity 0.35s ease;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   border: none;
   background: transparent;
 }
+
 .navbar-collapse.show {
   opacity: 1;
 }
@@ -24,10 +26,12 @@ body {
     max-height: none;
     opacity: 1;
   }
+
   .space {
     height: 7vh;
   }
 }
+
 .space {
   height: 5vh;
 }
@@ -38,62 +42,73 @@ footer {
   padding: 20px;
   text-align: center;
 }
-footer .row .col-4 p, footer .row .col-4 a, footer .row .col-4 a:hover {
+
+footer .row .col-4 p,
+footer .row .col-4 a,
+footer .row .col-4 a:hover {
   color: #c5c9d3 !important;
 }
 
 
 /* Style pour la page d'accueil */
 
-.hero{
+.hero {
   position: relative;
   min-height: 40vh;
   overflow: hidden;
   width: 100%;
   margin: 0;
   padding: 0;
-  margin-bottom: 5%;
-  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.bg-video{
+.bg-video {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -2;
-  opacity: 0.9;
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  z-index: 0;
+  opacity: 0.95;
 }
 
-.overlay{
+.overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: -1;
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+  pointer-events: none;
 }
-.welcome-section{
-position: relative;
-background-color: red;
-}
-.display-2{
+
+.welcome-section,
+.welcom-section {
   position: relative;
-  padding-top: 5%;
-  margin-top: 5%;
+  z-index: 2;
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.display-2 {
+  margin: 0 0 1rem 0;
+  font-size: clamp(1.8rem, 4vw, 3.5rem);
+  line-height: 1.08;
+  font-weight: 700;
+}
+
+.welcome-section p,
+.welcom-section p {
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  margin-bottom: 1.25rem;
+}
+
+.welcome-section .btn,
+.welcom-section .btn {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
 }
 
 .container {
@@ -104,9 +119,25 @@ background-color: red;
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 100%;
   margin: auto;
   padding: 0;
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    height: 70vh;
+    min-height: 55vh;
+    padding: 1rem 0;
+  }
+
+  .display-2 {
+    font-size: 2rem;
+  }
+
+  .welcome-section p,
+  .welcom-section p {
+    font-size: 1rem;
+  }
 }
 
 .row {
@@ -132,12 +163,13 @@ background-color: red;
   padding-bottom: 0;
   justify-content: center;
 }
+
 .col-md-4 {
   flex: 0 0 33.3333%;
   max-width: 33.3333%;
   padding: 15px;
   margin: auto;
-  
+
 }
 
 @media (max-width: 767.98px) {
@@ -145,9 +177,11 @@ background-color: red;
     flex: 0 0 100%;
     max-width: 100%;
   }
+
   .row {
     justify-content: flex-start;
   }
+
   .container {
     align-items: stretch;
     padding: 0 15px;
@@ -164,26 +198,30 @@ background-color: red;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .card-img-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 200px;
   object-fit: cover;
 }
+
 .card-body {
   padding: 20px;
 }
-.card-title{
+
+.card-title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.icon-choice{
+.icon-choice {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,29 +231,38 @@ background-color: red;
 
 }
 
-.choice{
+.choice {
   height: 50vh;
 }
 
 
 .why_choose_area {
-	margin-top: auto;
+  margin-top: auto;
 }
-.single_why_choose{margin-top:60px;}
+
+.single_why_choose {
+  margin-top: 60px;
+}
+
 .single_why_choose h2 {
-	font-size: 60px;
-	font-weight: 600;
-	line-height: 76px;
-	margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 76px;
+  margin-bottom: 30px;
 }
-.single_why_choose p{margin: 30px;}
-.single_why_choose_img img{
+
+.single_why_choose p {
+  margin: 30px;
+}
+
+.single_why_choose_img img {
   width: 100%;
   height: auto;
   margin: 30px;
   object-fit: cover;
 }
-.single_why_choose a{
+
+.single_why_choose a {
   color: #007bff;
   text-decoration: none;
   font-weight: 600;
@@ -227,7 +274,8 @@ background-color: red;
   padding: 10px 20px;
   border-radius: 10px;
 }
-.single_why_choose a:hover{
+
+.single_why_choose a:hover {
   color: #007bff;
   text-decoration: none;
   font-weight: 600;
@@ -244,7 +292,7 @@ background-color: red;
 
 
 
-.image2{
+.image2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,70 +304,157 @@ background-color: red;
 }
 
 
-form{
+form {
   margin: 20px;
 }
+
 .single_address h4 {
-	font-weight: 600;
-	font-size: 26px;
-	margin-bottom: 20px;
-}
-.mr_20{margin-bottom:10px;}
-.single_address p{}
-.single_address p a{color:#1b2032;transition:0.3s;}
-.single_address p a:hover{color:#4771fa;}
-.contact input {
-	background: #fff;
-	box-shadow: none;
-	color: #1b2032;
-	font-size: 18px;
-	font-weight:400;
-  border-radius: 2px;
-	height: auto;
-	padding: 8px;
-	width: 100%;
-	margin-bottom: 15px;
-	font-family: 'Poppins', sans-serif;
-}
-.contact textarea {
-	background: #fff;
-	border-radius: 0px;
-	box-shadow: none;
-	color: #1b2032;
-	font-size:18px;
-	margin-bottom: 15px;
-	font-weight:400;
-	padding: 20px;
-	width: 100%;
-	font-family: 'Poppins', sans-serif;
-}
-.contact input:focus {
-	border: 1px solid #0487df;
-    box-shadow: none;
-	color: #1b2032;
-	background: #fff;
-    outline: 1px solid #0487df;
-}
-.contact textarea:focus {
-	border: 1px solid #fff;
-    box-shadow: #f6f6f6;
-    outline: 0 none;
-	color: #1b2032;
-	background: #fff;
-}
-.contact button {
-	font-size: 16px;
-}
-.contact_btn {
-	background: #ffaa17;
-	display: inline-block;
-	color: #fff;
-	border: 2px solid #ffaa17;
-	padding: 12px 40px;
-	
-}
-.contact_btn:hover{
-	background: #232a34;
-	border: 2px solid #232a34;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 20px;
 }
 
+.mr_20 {
+  margin-bottom: 10px;
+}
+
+.single_address p {}
+
+.single_address p a {
+  color: #1b2032;
+  transition: 0.3s;
+}
+
+.single_address p a:hover {
+  color: #4771fa;
+}
+
+.contact input {
+  background: #fff;
+  box-shadow: none;
+  color: #1b2032;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 2px;
+  height: auto;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact textarea {
+  background: #fff;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #1b2032;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  padding: 20px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact input:focus {
+  border: 1px solid #0487df;
+  box-shadow: none;
+  color: #1b2032;
+  background: #fff;
+  outline: 1px solid #0487df;
+}
+
+.contact textarea:focus {
+  border: 1px solid #fff;
+  box-shadow: #f6f6f6;
+  outline: 0 none;
+  color: #1b2032;
+  background: #fff;
+}
+
+.contact button {
+  font-size: 16px;
+}
+
+.contact_btn {
+  background: #ffaa17;
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #ffaa17;
+  padding: 12px 40px;
+
+}
+
+.contact_btn:hover {
+  background: #232a34;
+  border: 2px solid #232a34;
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .col-md-4,
+  .card,
+  .team-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 0 15px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero {
+    height: 60vh;
+    min-height: 45vh;
+  }
+
+  .hero .overlay {
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero>*:not(.bg-video):not(.image) {
+    position: relative;
+    z-index: 2;
+  }
+
+  .display-2 {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .display-2 {
+    font-size: 1.4rem;
+  }
+
+  .hero {
+    height: 55vh;
+  }
+
+  .team-card {
+    width: 100%;
+  }
+}

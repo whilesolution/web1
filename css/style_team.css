@@ -1,145 +1,154 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #1e3441;
-    color: #333;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e3441;
+  color: #333;
 
-  }
+}
 
-  footer {
-    color: #fff !important;
-    padding: 20px;
-    text-align: center;
-  }
-  footer .row .col-4 p, footer .row .col-4 a, footer .row .col-4 a, footer small{
-    color: #c5c9d3 !important;
-  }
-  
-  /* Animation pour  mobile navbar dropdown */
+footer {
+  color: #fff !important;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .row .col-4 p,
+footer .row .col-4 a,
+footer .row .col-4 a,
+footer small {
+  color: #c5c9d3 !important;
+}
+
+/* Animation pour  mobile navbar dropdown */
+.navbar-collapse {
+  display: block !important;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.35s ease;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+}
+
+.navbar-collapse.show {
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
   .navbar-collapse {
-    display: block !important;
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    transition: max-height 0.35s ease, opacity 0.35s ease;
-  }
-  .navbar-toggler{
-    border: none;
-    background: transparent;
-  }
-  .navbar-collapse.show {
+    max-height: none;
     opacity: 1;
   }
-  
-  @media (min-width: 992px) {
-    .navbar-collapse {
-      max-height: none;
-      opacity: 1;
-    }
-    .space {
-      height: 7vh;
-    }
-  }
+
   .space {
-    height: 5vh;
+    height: 7vh;
   }
+}
+
+.space {
+  height: 5vh;
+}
 
 /* HERO */
 .hero {
   height: 50vh;
-  background: linear-gradient(rgba(31,60,136,0.4), rgba(31,60,136,0.4)),
-              url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d') center/cover;
+  background: linear-gradient(rgba(31, 60, 136, 0.4), rgba(31, 60, 136, 0.4)),
+    url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d') center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
 }
+
 .btn {
-	  color: #1b2032;
-	  background: #0487df;
-    font-family: 'Times New Roman', Times, serif;
-} 
+  color: #1b2032;
+  background: #0487df;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 
 
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    color: #e8f4f8;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #e8f4f8;
 }
 
 h2 {
-    text-align: center;
-    margin: 30px 0 20px;
-    color: #e8f4f8;
+  text-align: center;
+  margin: 30px 0 20px;
+  color: #e8f4f8;
 }
 
 .owner-section {
-    margin-bottom: 50px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
+  margin-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 
-    
+
 }
 
 .team-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .team-card {
-    width: 250px;
-    text-align: center;
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    background: #f2f2f2;
-    padding: 15px;
-    width: 200px;
+  width: 250px;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background: #f2f2f2;
+  padding: 15px;
+  width: 200px;
 }
 
 
 .owner {
-    background: #e8f4f8;
-    border: 2px solid #007bff;
-    margin: 0 auto;
+  background: #e8f4f8;
+  border: 2px solid #007bff;
+  margin: 0 auto;
 }
 
 .team-card img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    
-    
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+
+
 }
 
 .team-card h3 {
-    margin: 10px 0;
-    font-size: 18px;
-    color: black;
+  margin: 10px 0;
+  font-size: 18px;
+  color: black;
 }
 
 .team-card p {
-    color:  black;
-    margin: 0;
+  color: black;
+  margin: 0;
 }
 
 .acteurs h2 {
@@ -151,40 +160,98 @@ h2 {
 }
 
 .groupe {
-    margin: 1%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+  margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 
-    
-    
+
+
 }
 
 .acteur {
-    width: 400px;
-    text-align: center;
-    background: #f9f9f9;
-    padding: 40px;
-    border-radius: 15px;
-    text-align: center;
-    background: #f2f2f2;
-    padding: 25px;
-    width: 250px;
- 
+  width: 400px;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  background: #f2f2f2;
+  padding: 25px;
+  width: 250px;
+
 }
 
 .acteur img {
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    object-fit: cover;
-    margin-bottom: 25px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    object-fit: cover;
-    
-  
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 25px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+
+
 }
 
+/* Responsive alignment overrides - unified */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .col-md-4,
+  .card,
+  .team-card,
+  .acteur,
+  .team-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 0 15px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero {
+    height: 60vh;
+    min-height: 45vh;
+  }
+
+  .display-2 {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .display-2 {
+    font-size: 1.4rem;
+  }
+
+  .team-card,
+  .acteur {
+    width: 100%;
+  }
+}

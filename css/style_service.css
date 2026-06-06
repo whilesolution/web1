@@ -209,3 +209,73 @@ footer small {
 .choice {
   height: 50vh;
 }
+
+/* Responsive alignment overrides - unified */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .col-md-4,
+  .card,
+  .team-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 0 15px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero {
+    height: 60vh;
+    min-height: 45vh;
+  }
+
+  .hero .overlay {
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero>*:not(.image) {
+    position: relative;
+    z-index: 2;
+  }
+
+  .display-2 {
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .display-2 {
+    font-size: 1.4rem;
+  }
+
+  .hero {
+    height: 55vh;
+  }
+
+  .team-card {
+    width: 100%;
+  }
+}
