@@ -311,6 +311,13 @@ form {
   margin: 20px;
 }
 
+.contact_area .container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 8px 30px rgba(18, 25, 40, 0.06);
+}
+
 .single_address h4 {
   font-weight: 600;
   font-size: 26px;
@@ -334,43 +341,45 @@ form {
 
 .contact input {
   background: #fff;
-  box-shadow: none;
+  box-shadow: 0 4px 18px rgba(31, 41, 55, 0.06);
   color: #1b2032;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  border-radius: 2px;
+  border-radius: 8px;
   height: auto;
-  padding: 8px;
+  padding: 12px 14px;
   width: 100%;
   margin-bottom: 15px;
   font-family: 'Poppins', sans-serif;
+  border: 1px solid rgba(31, 41, 55, 0.06);
 }
 
 .contact textarea {
   background: #fff;
-  border-radius: 0px;
-  box-shadow: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(31, 41, 55, 0.06);
   color: #1b2032;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 15px;
   font-weight: 400;
-  padding: 20px;
+  padding: 16px;
   width: 100%;
   font-family: 'Poppins', sans-serif;
+  border: 1px solid rgba(31, 41, 55, 0.06);
 }
 
 .contact input:focus {
-  border: 1px solid #0487df;
-  box-shadow: none;
+  border: 1px solid rgba(71, 113, 250, 0.9);
+  box-shadow: 0 6px 24px rgba(71, 113, 250, 0.08);
   color: #1b2032;
   background: #fff;
-  outline: 1px solid #0487df;
+  outline: none;
 }
 
 .contact textarea:focus {
-  border: 1px solid #fff;
-  box-shadow: #f6f6f6;
-  outline: 0 none;
+  border: 1px solid rgba(71, 113, 250, 0.9);
+  box-shadow: 0 8px 30px rgba(71, 113, 250, 0.06);
+  outline: none;
   color: #1b2032;
   background: #fff;
 }
@@ -380,17 +389,25 @@ form {
 }
 
 .contact_btn {
-  background: #ffaa17;
+  background: #0a64b8;
   display: inline-block;
   color: #fff;
-  border: 2px solid #ffaa17;
-  padding: 12px 40px;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 30px;
+  transition: transform .18s ease, box-shadow .18s ease, opacity .12s ease;
+  box-shadow: 0 8px 22px rgba(255, 111, 0, 0.18);
 
 }
 
 .contact_btn:hover {
-  background: #232a34;
-  border: 2px solid #232a34;
+  transform: translateY(-3px);
+  box-shadow: 0 18px 42px rgba(255, 111, 0, 0.14);
+}
+
+.contact_btn:active {
+  transform: translateY(0);
+  opacity: .95;
 }
 
 @media (max-width: 1199.98px) {
