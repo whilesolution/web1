@@ -19,7 +19,7 @@ Personnes autorisées à travailler sur ce projet :
 
 ! Les informations ci-dessus ne doivent pas être modifiées.
 
-______________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________
 
 Suivez la structure du projet et la tâche qui vous est attribuée.
 
