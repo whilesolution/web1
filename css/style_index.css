@@ -72,14 +72,17 @@ footer .row .col-4 a:hover {
   object-fit: cover;
   z-index: 0;
   opacity: 0.95;
+  filter: brightness(0.55) contrast(0.95) saturate(0.95);
+  transition: filter 300ms ease, opacity 300ms ease;
 }
 
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.55);
   z-index: 1;
   pointer-events: none;
+  opacity: 0.95
 }
 
 .welcome-section,
