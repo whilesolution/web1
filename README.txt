@@ -36,8 +36,8 @@ Quand vous finissez de coder, n’oubliez pas de taper ces commandes dans votre 
 ||  - git push origin dev                                 ||
 ||  - git pull                                            ||
 ============================================================
-  - 
-Sur la page qui vous sera affichée, vous allez remplir les informations qui vous seront demandées.
+   
+Sur la page qui vous sera affichée, vous allez remplir les informations qui vous seront demandées(voir le groupe whatsapp)
 
 Après avoir envoyé votre code, vous allez taper la commande suivante dans votre terminal Git Bash :
 
